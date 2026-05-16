@@ -114,6 +114,8 @@ All content is drawn exclusively from these two sources:
 
 This repository is shared for devotional and educational purposes only, with full credit to the original authors.
 
+> **Content Notice:** The name meanings and sloka text in this repository are the work of Udaya Bhaaskar Bulusu and Sri Siva Vishnu Temple respectively, reproduced here for devotional and educational purposes with full attribution. No copyright is claimed over this content.
+
 ---
 
 *Om Sri Matre Namaha*
