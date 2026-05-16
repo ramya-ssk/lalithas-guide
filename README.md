@@ -41,19 +41,17 @@ Then run `claude login` and follow the prompts.
 
 ---
 
-### Step 3 — Install Git (if you don't have it)
+### Step 3 — Download this agent
 
-Git is used to download the agent files.
+**No-code option (recommended for most users):**
 
-- **Mac:** Git is usually pre-installed. Open Terminal and type `git --version` to check. If not installed, download from [git-scm.com](https://git-scm.com).
-- **Windows:** Download Git from [git-scm.com](https://git-scm.com) and install it.
+1. Go to [github.com/ramya-ssk/lalithas-guide](https://github.com/ramya-ssk/lalithas-guide)
+2. Click the green **Code** button
+3. Click **Download ZIP**
+4. Unzip the downloaded file — you will get a folder called `lalithas-guide-main`
+5. Move that folder anywhere on your computer (Desktop is fine)
 
----
-
-### Step 4 — Download this agent
-
-Open your Terminal (Mac/Linux) or Git Bash (Windows) and run:
-
+**Using Git (if you are comfortable with the terminal):**
 ```bash
 git clone https://github.com/ramya-ssk/lalithas-guide.git
 cd lalithas-guide
@@ -61,11 +59,23 @@ cd lalithas-guide
 
 ---
 
-### Step 5 — Start the agent
+### Step 4 — Open the folder in Claude Code
 
-```bash
-claude
-```
+**On Mac:**
+1. Open the Claude Code app
+2. Click **Open Folder**
+3. Navigate to and select the `lalithas-guide-main` folder
+4. The agent starts automatically
+
+**On Windows:**
+1. Open the Claude Code app
+2. Click **Open Folder**
+3. Navigate to and select the `lalithas-guide-main` folder
+4. The agent starts automatically
+
+---
+
+### Step 5 — Start asking questions
 
 Claude Code will open and the Lalitha Sahasranamam agent is immediately ready. You will see a prompt where you can type your question.
 
