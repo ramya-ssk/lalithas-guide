@@ -55,7 +55,7 @@ Git is used to download the agent files.
 Open your Terminal (Mac/Linux) or Git Bash (Windows) and run:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lalithas-guide.git
+git clone https://github.com/ramya-ssk/lalithas-guide.git
 cd lalithas-guide
 ```
 
