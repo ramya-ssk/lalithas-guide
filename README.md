@@ -13,37 +13,15 @@ A Claude Code agent that serves as a complete, searchable guide to **Sri Lalitha
 
 ## Getting Started
 
-### Step 1 — Create a Claude account
+### Step 1 — Create a Claude account and install Claude Code
 
-Go to [claude.ai](https://claude.ai) and sign up for a free account if you don't have one.
-
----
-
-### Step 2 — Install Claude Code
-
-Claude Code is a free app that lets you run AI agents like this one.
-
-**On Mac:**
-1. Go to [claude.ai/code](https://claude.ai/code)
-2. Download and install the Mac app
-3. Open it and sign in with your Claude account
-
-**On Windows:**
-1. Go to [claude.ai/code](https://claude.ai/code)
-2. Download and install the Windows app
-3. Open it and sign in with your Claude account
-
-**Using the terminal (Mac/Linux/Windows):**
-```bash
-npm install -g @anthropic-ai/claude-code
-```
-Then run `claude login` and follow the prompts.
+1. Go to [claude.ai](https://claude.ai) and sign up for a free account
+2. Go to [claude.ai/code](https://claude.ai/code) and download and install the app (Mac or Windows)
+3. Open Claude Code and sign in with your Claude account
 
 ---
 
-### Step 3 — Download this agent
-
-**No-code option (recommended for most users):**
+### Step 2 — Download this agent
 
 1. Go to [github.com/ramya-ssk/lalithas-guide](https://github.com/ramya-ssk/lalithas-guide)
 2. Click the green **Code** button
@@ -51,23 +29,10 @@ Then run `claude login` and follow the prompts.
 4. Unzip the downloaded file — you will get a folder called `lalithas-guide-main`
 5. Move that folder anywhere on your computer (Desktop is fine)
 
-**Using Git (if you are comfortable with the terminal):**
-```bash
-git clone https://github.com/ramya-ssk/lalithas-guide.git
-cd lalithas-guide
-```
-
 ---
 
-### Step 4 — Open the folder in Claude Code
+### Step 3 — Open the folder in Claude Code
 
-**On Mac:**
-1. Open the Claude Code app
-2. Click **Open Folder**
-3. Navigate to and select the `lalithas-guide-main` folder
-4. The agent starts automatically
-
-**On Windows:**
 1. Open the Claude Code app
 2. Click **Open Folder**
 3. Navigate to and select the `lalithas-guide-main` folder
@@ -75,15 +40,9 @@ cd lalithas-guide
 
 ---
 
-### Step 5 — Start asking questions
+### Step 4 — Start asking questions
 
-Claude Code will open and the Lalitha Sahasranamam agent is immediately ready. You will see a prompt where you can type your question.
-
----
-
-### Step 6 — Ask anything
-
-Try these to get started:
+The agent is immediately ready. Try these to get started:
 
 | Question | What it does |
 |---|---|
