@@ -11,24 +11,87 @@ A Claude Code agent that serves as a complete, searchable guide to **Sri Lalitha
 - Guide on **chanting practice** — Mantra form, Stotra form, auspicious days, prerequisites
 - Find names related to specific **purposes** (victory, wealth, health, knowledge, etc.)
 
-## How to use
+## Getting Started
 
-1. Install [Claude Code](https://claude.ai/code)
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/lalithas-guide.git
-   cd lalithas-guide
-   ```
-3. Start the agent:
-   ```bash
-   claude
-   ```
-4. Ask anything:
-   - *"What is name 307?"*
-   - *"What does Ramya mean?"*
-   - *"Give me the full sloka for Moola Prakrithi"*
-   - *"Which names relate to success at work?"*
-   - *"Tell me the history of who wrote the Sahasranamam"*
+### Step 1 — Create a Claude account
+
+Go to [claude.ai](https://claude.ai) and sign up for a free account if you don't have one.
+
+---
+
+### Step 2 — Install Claude Code
+
+Claude Code is a free app that lets you run AI agents like this one.
+
+**On Mac:**
+1. Go to [claude.ai/code](https://claude.ai/code)
+2. Download and install the Mac app
+3. Open it and sign in with your Claude account
+
+**On Windows:**
+1. Go to [claude.ai/code](https://claude.ai/code)
+2. Download and install the Windows app
+3. Open it and sign in with your Claude account
+
+**Using the terminal (Mac/Linux/Windows):**
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+Then run `claude login` and follow the prompts.
+
+---
+
+### Step 3 — Install Git (if you don't have it)
+
+Git is used to download the agent files.
+
+- **Mac:** Git is usually pre-installed. Open Terminal and type `git --version` to check. If not installed, download from [git-scm.com](https://git-scm.com).
+- **Windows:** Download Git from [git-scm.com](https://git-scm.com) and install it.
+
+---
+
+### Step 4 — Download this agent
+
+Open your Terminal (Mac/Linux) or Git Bash (Windows) and run:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/lalithas-guide.git
+cd lalithas-guide
+```
+
+---
+
+### Step 5 — Start the agent
+
+```bash
+claude
+```
+
+Claude Code will open and the Lalitha Sahasranamam agent is immediately ready. You will see a prompt where you can type your question.
+
+---
+
+### Step 6 — Ask anything
+
+Try these to get started:
+
+| Question | What it does |
+|---|---|
+| `What is name 1?` | Look up the very first name — Srimatha |
+| `What does Ramya mean?` | Find a name by its Sanskrit word |
+| `Give me the sloka for Vijaya` | See the full chantable verse |
+| `Which names relate to wealth?` | Find all names connected to a theme |
+| `Who wrote the Sahasranamam?` | Learn the origin and history |
+| `What is the Dhyanam?` | Hear the meditation verses with meaning |
+| `Which names help with success at work?` | Get purpose-specific guidance |
+
+---
+
+### Tips
+
+- You do not need to spell names perfectly — the agent handles variations (e.g. "Sree Matha" finds "Srimatha")
+- Ask follow-up questions naturally — "give me the sloka for that", "what about the next name", "explain that further"
+- Type `exit` or press `Ctrl+C` to close the agent
 
 ## Files
 
