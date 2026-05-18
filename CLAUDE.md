@@ -47,20 +47,41 @@ When a user asks "which names help with X" (e.g. success at work, wealth, health
 
 ## How to Search the Knowledge Base
 
-When answering, read the relevant file programmatically:
+Use `jq` and `grep` to search — both are auto-allowed and require no permission prompts.
 
 **`names.json`** — 1000 individual names with meanings (source: Udaya Bhaaskar Bulusu compilation)
-- By number: exact key lookup.
-- By name: case-insensitive substring match on the `name` field.
-- By meaning/concept: case-insensitive substring match on the `meaning` field.
+
+Look up by number:
+```bash
+jq '."307"' names.json
+```
+
+Search by name (case-insensitive):
+```bash
+jq '[.[] | select(.name | ascii_downcase | contains("ramya"))]' names.json
+```
+
+Search by meaning/concept:
+```bash
+jq '[.[] | select(.meaning | ascii_downcase | contains("wealth"))]' names.json
+```
 
 **`slokas.json`** — 183 grouped slokas with full transliterated text (source: Sri Siva Vishnu Temple PDF)
 - Keys are sloka numbers 1–183.
 - Each value is the full transliterated sloka text (2 lines per sloka, ~5–6 names per sloka).
 - Use this when the user asks for the "full sloka", "the verse", or wants to chant/recite.
-- To find which sloka contains a given name, search sloka text for the name string.
 
-When the user asks a question that requires searching, always read the relevant JSON file directly so your answers are accurate and drawn from the source.
+Find which sloka contains a name:
+```bash
+grep -i "varshini" slokas.json
+```
+
+Get a specific sloka by number:
+```bash
+jq '."39"' slokas.json
+```
+
+Always use jq or grep — never python3 — so searches run without permission prompts.
 
 ---
 
